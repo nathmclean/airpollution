@@ -1,7 +1,7 @@
 {
-  "name": "airpolution",
+  "name": "airpollution",
   "version": "1.0.0",
-  "description": "Find out the airpolution in areas of the UK. Mainly in London and SE England",
+  "description": "Find out the airpollution in areas of the UK. Mainly in London and SE England",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

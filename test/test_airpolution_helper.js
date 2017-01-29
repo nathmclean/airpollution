@@ -4,7 +4,7 @@ var chai = require('chai');
 var chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 var expect = chai.expect;
-var AirPolutionHelper = require('../airpolution_helper');
+var AirPolutionHelper = require('../airpollution_helper');
 chai.config.includeStack = true;
 
 describe('AirPolutionHelper', function() {
@@ -289,9 +289,9 @@ describe('AirPolutionHelper', function() {
         }
       }
     }
-    context('with a low air polution', function() {
+    context('with a low air pollution', function() {
       it('formats the status as expected', function() {
-        expect(subject.formatAirStatus(status)).to.eq('The current air polution in greenwich is Low.');
+        expect(subject.formatAirStatus(status)).to.eq('The current air pollution in greenwich is Low.');
       });
     });
   });
