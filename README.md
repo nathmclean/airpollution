@@ -1,5 +1,4 @@
-https://travis-ci.org/nathmclean/airpollution.svg?branch=master
-
+[![Build Status](https://travis-ci.org/nathmclean/airpollution.svg?branch=master)](https://travis-ci.org/nathmclean/airpollution)
 # Description
 An Alexa Skill that uses [London Air Org](http://www.londonair.org.uk/LondonAir/API/ "London Air Orgs") API to return the current hourly forecast for a given area. Currently returns the highest value for an area.
 
