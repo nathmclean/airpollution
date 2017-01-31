@@ -19,7 +19,7 @@ AirPollutionHelper.prototype.requestAirQuality = function(group) {
 AirPollutionHelper.prototype.getAirQuality = function(group) {
   var options = {
     method: 'GET',
-    uri: ENDPOINT + group.toLowerCase() + FORMAT,
+    uri: ENDPOINT + group + FORMAT,
     resolveWithFullResponse: true,
     json: true
   };
